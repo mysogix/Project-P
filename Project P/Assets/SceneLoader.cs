@@ -5,6 +5,6 @@ public class SceneLoader : MonoBehaviour
 {
     public void LoadScene()
     {
-        SceneManager.LoadScene("Map");
+        SceneManager.LoadScene("Scene 1");
     }
 }
