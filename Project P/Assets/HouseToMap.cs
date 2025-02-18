@@ -7,10 +7,23 @@ public class HouseToMap : MonoBehaviour
 
     public void LoadScene()
     {
-       
+        if (transitionSound != null)
+        {
             // Sound abspielen
-             SceneManager.LoadScene("Map");
             transitionSound.Play();
 
-
+            // Szene erst nach der Länge des Sounds wechseln
+            Invoke("ChangeScene", transitionSound.clip.length);
+        }
+        else
+        {
+            // Falls kein Sound gesetzt ist, sofort wechseln
+            ChangeScene();
+        }
     }
+
+    void ChangeScene()
+    {
+        SceneManager.LoadScene("Map");
+    }
+}
