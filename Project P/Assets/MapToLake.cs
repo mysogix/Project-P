@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MapToLake
+public class MapToLake : MonoBehaviour
 {
     public string lake;
 
