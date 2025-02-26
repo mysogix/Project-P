@@ -113,7 +113,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 1
   m_Interactable: 1
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &4144443669362151943
 GameObject:
@@ -374,6 +374,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72115ecd8f7ca6a49bcfb127aa75a062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transitionSound: {fileID: 0}
   SceneName: 
   transition: {fileID: 4952942078513095482}
   transitionTime: 1
