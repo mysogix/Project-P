@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/Scenes/House Outside.unity
     guid: d448784e6f949254495f8c58b93b3b50
   - enabled: 1
-    path: Assets/Scenes/Lake.unity
+    path: Assets/Scenes/lake.unity
     guid: fa7259037300e9e4f982718d4d958532
   - enabled: 1
     path: Assets/Scenes/Map.unity
