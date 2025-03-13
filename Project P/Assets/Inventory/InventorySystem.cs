@@ -8,12 +8,22 @@ public class InventorySystem : MonoBehaviour
     public static InventorySystem current;
     private Dictionary<InventoryItemData, InventoryItem> m_itemDictionairy;
     public List<InventoryItem> inventory;
+    public InventoryUI inventoryUI;
 
     private void Awake()
     {
-        current = this;
-        inventory = new List<InventoryItem>();
-        m_itemDictionairy = new Dictionary<InventoryItemData, InventoryItem>();
+        // Prüfen, ob bereits eine Instanz existiert und dann sicherstellen, dass nur eine Instanz existiert
+        if (current != null && current != this)
+        {
+            Destroy(gameObject); // Zerstöre doppelte Instanzen
+        }
+        else
+        {
+            current = this;
+            DontDestroyOnLoad(gameObject);  // Markiere das GameObject als persistent
+            inventory = new List<InventoryItem>();
+            m_itemDictionairy = new Dictionary<InventoryItemData, InventoryItem>();
+        }
     }
 
     [Serializable]
@@ -48,6 +58,7 @@ public class InventorySystem : MonoBehaviour
         return null;
     }
 
+    [Obsolete]
     public void Add(InventoryItemData referenceData)
     {
         if (m_itemDictionairy.TryGetValue(referenceData, out InventoryItem value))
@@ -59,6 +70,11 @@ public class InventorySystem : MonoBehaviour
             InventoryItem newItem = new InventoryItem(referenceData);
             inventory.Add(newItem);
             m_itemDictionairy.Add(referenceData, newItem);
+        }
+
+        if (inventoryUI != null && inventoryUI.gameObject.activeSelf)
+        {
+            inventoryUI.RefreshInventory();
         }
     }
 
@@ -73,6 +89,11 @@ public class InventorySystem : MonoBehaviour
                 inventory.Remove(value);
                 m_itemDictionairy.Remove(referenceData);
             }
+        }
+
+        if (inventoryUI != null && inventoryUI.gameObject.activeSelf)
+        {
+            inventoryUI.RefreshInventory();
         }
     }
 }
