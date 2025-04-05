@@ -717,6 +717,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SceneLoader
       objectReference: {fileID: 0}
+    - target: {fileID: 7946189666167621470, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
+      propertyPath: m_Name
+      value: Button Map
+      objectReference: {fileID: 0}
     - target: {fileID: 7986660049187837935, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
       propertyPath: m_Camera
       value: 
