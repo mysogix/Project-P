@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 198847798}
   - component: {fileID: 198847797}
   m_Layer: 5
-  m_Name: Ruins
+  m_Name: Button Ruins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 408519360}
   - component: {fileID: 408519359}
   m_Layer: 5
-  m_Name: Taverne
+  m_Name: Button Taverne
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -471,7 +471,7 @@ GameObject:
   - component: {fileID: 846998604}
   - component: {fileID: 846998603}
   m_Layer: 5
-  m_Name: Tree House
+  m_Name: Button Tree House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -603,7 +603,7 @@ GameObject:
   - component: {fileID: 849379847}
   - component: {fileID: 849379846}
   m_Layer: 5
-  m_Name: Leaf House
+  m_Name: Button Leaf House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -681,7 +681,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Leaf House
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &849379847
@@ -1086,7 +1086,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14.5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1111,7 +1111,7 @@ Transform:
   m_GameObject: {fileID: 1372957657}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -8}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1321,7 +1321,7 @@ GameObject:
   - component: {fileID: 1717837012}
   - component: {fileID: 1717837011}
   m_Layer: 5
-  m_Name: House
+  m_Name: Button House
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1453,7 +1453,7 @@ GameObject:
   - component: {fileID: 1758038430}
   - component: {fileID: 1758038429}
   m_Layer: 5
-  m_Name: Windmil
+  m_Name: Button Windmil
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1585,7 +1585,7 @@ GameObject:
   - component: {fileID: 2092928128}
   - component: {fileID: 2092928127}
   m_Layer: 5
-  m_Name: Gate
+  m_Name: Button Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1854,7 +1854,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7946189666167621470, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
       propertyPath: m_Name
-      value: Lake
+      value: Button Lake
       objectReference: {fileID: 0}
     - target: {fileID: 7986660049187837935, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
       propertyPath: m_Camera
