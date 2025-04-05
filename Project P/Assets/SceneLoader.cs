@@ -14,7 +14,7 @@ public class SceneLoader : MonoBehaviour
         StartCoroutine(LoadLevel());
     }
 
-    IEnumerator LoadLevel()
+    public IEnumerator LoadLevel()
     {
         transition.SetTrigger("Start");
         
