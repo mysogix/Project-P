@@ -9,12 +9,12 @@ public class SceneLoader : MonoBehaviour
     public string SceneName;
     public Animator transition;
     public float transitionTime = 1f;
-   public void ChangeScene()
+   public void ChangeScene(string SceneName)
     {
-        StartCoroutine(LoadLevel());
+        StartCoroutine(LoadLevel(SceneName));
     }
 
-    public IEnumerator LoadLevel()
+    public IEnumerator LoadLevel(string SceneName)
     {
         transition.SetTrigger("Start");
         
