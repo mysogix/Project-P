@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 195b5393093405a4ab4e3f238449bd33
+guid: fd046b7c5879844c5bed96c9830e0e6a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4835586627223229512
-    second: Unbenanntes_Projekt 2_0
+      213: 3893772150402116435
+    second: "Garten_Hu\u0308tte 4_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Unbenanntes_Projekt 2_0
+      name: "Garten_Hu\u0308tte 4_0"
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 844154cda647b1340800000000000000
-      internalID: 4835586627223229512
+      spriteID: 35be6050425790630800000000000000
+      internalID: 3893772150402116435
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Unbenanntes_Projekt 2_0: 4835586627223229512
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
