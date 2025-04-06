@@ -574,6 +574,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &763652742 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8493275548636512462, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
+  m_PrefabInstance: {fileID: 8407041935740667024}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72115ecd8f7ca6a49bcfb127aa75a062, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1072208741
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,7 +666,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_TargetDisplay: 0
 --- !u!224 &1072208745
 RectTransform:
@@ -915,6 +926,10 @@ PrefabInstance:
       value: -528.44
       objectReference: {fileID: 0}
     - target: {fileID: 4635524921215644805, guid: f5c115c35ee497e40af8f3dad7253f5a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4635524921215644805, guid: f5c115c35ee497e40af8f3dad7253f5a, type: 3}
       propertyPath: m_LocalRotation.w
       value: -0.927563
       objectReference: {fileID: 0}
@@ -1008,12 +1023,44 @@ PrefabInstance:
       value: -262.62915
       objectReference: {fileID: 0}
     - target: {fileID: 3345887086116883765, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345887086116883765, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3345887086116883765, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345887086116883765, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 763652742}
+    - target: {fileID: 3345887086116883765, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345887086116883765, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlaySound
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345887086116883765, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345887086116883765, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: House Outside
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345887086116883765, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
+      value: Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 3345887086116883765, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 5530437626822132647, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
       propertyPath: m_Camera
@@ -1076,9 +1123,13 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8493275548636512462, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
-      propertyPath: transitionSound
+      propertyPath: doorSound
       value: 
       objectReference: {fileID: 539736742}
+    - target: {fileID: 8493275548636512462, guid: 2989ec6eb1469c54c950f6b5fcde7f7c, type: 3}
+      propertyPath: transitionSound
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

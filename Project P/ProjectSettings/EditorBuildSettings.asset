@@ -23,6 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tree House.unity
     guid: 60f50c1e89dce3f4cbfdb6e15d830b23
+  - enabled: 1
+    path: Assets/Scenes/Garden.unity
+    guid: d2a9148e67070fe4192cbb572eff6fea
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
