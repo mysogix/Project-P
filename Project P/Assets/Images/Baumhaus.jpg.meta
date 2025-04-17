@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 03fb4dfd11fa82540912a0c7b3991d87
+guid: 280c010e9242341898df6c63f4c99a2e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 402663453300777691
-    second: "Wald H\xFCtte 3_0"
+      213: 5686631132536739246
+    second: Baumhaus_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Wald H\xFCtte 3_0"
+      name: Baumhaus_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd26602074c869500800000000000000
-      internalID: 402663453300777691
+      spriteID: ea5978fc2e8faee40800000000000000
+      internalID: 5686631132536739246
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      "Wald H\xFCtte 3_0": 402663453300777691
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
