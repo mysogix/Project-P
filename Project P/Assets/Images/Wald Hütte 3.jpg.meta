@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 03fb4dfd11fa82540912a0c7b3991d87
+guid: 1d645d17647e3b841ac0ab513f49e428
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Wald H\xFCtte 3_0": 402663453300777691
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
